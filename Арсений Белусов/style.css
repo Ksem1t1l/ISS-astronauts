@@ -1,0 +1,56 @@
+h1{
+   text-align: center; 
+   color: aqua;
+   background-color: black;
+}
+p{
+    font-size: 35px;
+    color: white;
+}
+.photo{
+    position: absolute;
+    left: 360px;
+    top: 330px
+}
+.next{
+    position: absolute;
+    left: 1100px;
+    top: 490px;
+    width: 12%;
+    transition: 1s;
+}
+.next:hover {
+    transform: scale(1.2); 
+
+}
+.info{
+    text-align: center;
+}
+.photo2{
+    float: left;
+}
+.back{
+    position: absolute;
+    top: 440px;
+    width: 12%;
+    left: 130px;
+    transition: 1s;
+}
+.back:hover{
+    transform: scale(1.2); 
+
+}
+.pop{
+    position: absolute;
+    top: 440px;
+}
+.back2{
+    position: absolute;
+    top: 10%;
+    width: 12%;
+    left: 1100px;
+    transition: 1s;
+}
+.back2:hover{
+    transform: scale(1.2);
+}
